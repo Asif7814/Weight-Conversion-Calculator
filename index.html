@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weight Conversion (kg to lbs)</title>
+
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1 id="title">Weight Conversion Calculator</h1>
+            <div class="inputField">
+                <input type="number" name="weight" id="weight" min="1" placeholder="Enter weight #"><br>
+
+                <div class="radio">
+                    <input type="radio" name="weightMeasurements" id="kg" value="kg">
+                    <label for="kg">kg</label>
+
+                    <input type="radio" name="weightMeasurements" id="lbs" value="lbs">
+                    <label for="lbs">lbs</label>
+                </div><br>
+                <button type="submit" class="submitBtn" id="submitBtn">SUBMIT</button>
+            </div>
+            <p id="result"></p>
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+</html>
